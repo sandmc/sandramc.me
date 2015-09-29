@@ -1,0 +1,106 @@
+body#background {
+  background: url('AboutMeDesktop.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+} 
+
+p.greeting {
+  color: black;
+  font-family: Century;
+  font-size: 30vmin;
+  text-align: center;
+  margin: 0;
+} 
+
+#introduction {
+	position: absolute;
+	height: 40%;
+	width: 60%;
+	left: 35%;
+	margin-bottom: 1px;	
+}
+
+p.introduction {
+	position: absolute;
+	padding: 0px 50px 50px 0px;
+	font-family: Helvetica;
+	font-weight: 100;
+	color: #707070;
+	font-size: 2.75vmin;
+	text-align: justify;
+}
+
+#social {
+	position: absolute;
+	height: 20%;
+	width: 40%;
+	left: 55%;
+	bottom: 20%;
+	margin-top: 20px;
+}
+
+img#twitter {
+	max-width: 12%;
+    max-height: 25%;
+    position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#linkedin {
+	max-width: 6.5%;
+    max-height: 25%;
+    padding-left:10px;
+    position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#instagram {
+	max-width: 10%;
+    max-height: 25%;
+    padding-left: 10px;
+    position: absolute;
+	top: 50%;
+	left: 31%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#mailto {
+	max-width: 13%;
+    max-height: 27%;
+    position: absolute;
+	top: 50%;
+	left: 44%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#footerbox {
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	bottom: 0%;
+	right: 39%;
+}
+#footerbox a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vw;
+	font-family: Century;
+	text-transform: uppercase;
+}
+
+#footerbox a:hover {
+	color: #707070;
+}
+
+P.footer {
+	word-spacing: 20px;
+}
+
+
+

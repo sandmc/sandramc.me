@@ -1,0 +1,56 @@
+#image {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    margin: 5px;
+}
+
+img {
+    position: absolute;
+    max-height: 80%;
+    max-width: 110%;
+}
+
+#description {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    right: 0%;
+    margin: 5px;
+}
+
+#description p {
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: .75em;
+}
+
+h3 {
+    font-family: Helvetica; 
+    font-weight: 100;
+    font-size: 2em;
+}
+
+  #footerbox {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    right: 40%;
+    bottom: 0%;
+}
+
+#footerbox a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    font-family: Century;
+    text-transform: uppercase;
+}
+
+#footerbox a:hover {
+    color: #707070;
+}
+
+p.footer {
+    word-spacing: 20px;
+}
