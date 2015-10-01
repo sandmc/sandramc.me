@@ -1,0 +1,681 @@
+body#homebackground {
+  background: url('../imgs/water.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+} 
+
+#main {
+	position: absolute;
+	height: 30vh;
+	width: 60vw;
+	left: 20%;
+	bottom: 55%;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: Century;
+	font-weight: 200;
+	font-size: 8.3359375vmin;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.about {
+	position: absolute;
+	padding: 8px 20px;	
+	left: 25%;
+	font-size: 2.5vmax;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Garamond, Century, serif;
+}
+
+
+.work {
+	position: absolute;
+	left: 55%;
+	padding: 8px 20px;	
+	font-size: 2.5vmax;
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Garamond, Century, serif;	
+}
+
+/* break to about */
+
+body#aboutbackground {
+  background: url('../imgs/AboutMeDesktop.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+} 
+
+p.greeting {
+  color: black;
+  font-family: Century;
+  font-size: 30vmin;
+  text-align: center;
+  margin: 0;
+} 
+
+#introduction {
+	position: absolute;
+	height: 40%;
+	width: 60%;
+	left: 35%;
+	margin-bottom: 1px;	
+}
+
+p.introduction {
+	position: absolute;
+	padding: 0px 50px 50px 0px;
+	font-family: Helvetica;
+	font-weight: 100;
+	color: #707070;
+	font-size: 2.75vmin;
+	text-align: justify;
+}
+
+#social {
+	position: absolute;
+	height: 20%;
+	width: 40%;
+	left: 55%;
+	bottom: 20%;
+	margin-top: 20px;
+}
+
+img#twitter {
+	max-width: 12%;
+    max-height: 25%;
+    position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#linkedin {
+	max-width: 6.5%;
+    max-height: 25%;
+    padding-left:10px;
+    position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#instagram {
+	max-width: 10%;
+    max-height: 25%;
+    padding-left: 10px;
+    position: absolute;
+	top: 50%;
+	left: 31%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+img#mailto {
+	max-width: 13%;
+    max-height: 27%;
+    position: absolute;
+	top: 50%;
+	left: 44%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#footerbox {
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	bottom: 0%;
+	right: 39%;
+}
+#footerbox a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vw;
+	font-family: Century;
+	text-transform: uppercase;
+}
+
+#footerbox a:hover {
+	color: #707070;
+}
+
+p.footer {
+	word-spacing: 20px;
+}
+
+/* break to work */
+
+#headerbox {
+	text-align: center;
+	margin: auto;
+	position: static;
+}
+
+#headerbox a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vw;
+	font-family: Century;
+	text-transform: uppercase;
+}
+
+#headerbox a:hover {
+	color: #707070;
+}
+
+p.header {
+	word-spacing: 20px;
+}
+
+img#work {
+	width:250px;
+	height:250px;
+	margin-top:20px;
+	margin-bottom:20px;
+	opacity: 0.75;
+}
+
+table.table1, td {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+ table.table1 {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+ }
+
+ #workfooterbox {
+	text-align: center;
+	margin: auto;
+	position: static;
+}
+
+#workfooterbox a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5vw;
+	font-family: Century;
+	text-transform: uppercase;
+}
+
+#workfooterbox a:hover {
+	color: #707070;
+}
+
+p.workfooter {
+	word-spacing: 20px;
+}
+
+/* break to armchair */
+#armchairimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#armchair {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#armchairdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+#description p {
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: .75em;
+}
+
+h3 {
+	font-family: Helvetica; 
+	font-weight: 100;
+	font-size: 2em;
+}
+
+/* break to cabinet */
+
+#cabinetimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#cabinet {
+	position: absolute;
+	max-height: 75%;
+	max-width: 110%;
+}
+
+#cabinetdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to cnc */
+
+#cncimage {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	margin: 5px;
+}
+
+img#cnc {
+	position: absolute;
+	max-height: 70%;
+	max-width: 110%;
+}
+
+#cncdescription {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to collage */
+
+#collageimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#collage {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#collagedescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to crane */
+
+#craneimage {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	margin: 5px;
+}
+
+img#crane {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#cranedescription {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to cup */
+
+#cupimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#cup {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#cupdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to fold */
+
+#foldimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#fold {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#folddescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+
+/* break to forest */
+
+.treeimages {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+#treesmodel {
+	position: absolute;
+	max-height: 50%;
+	max-width: 50%;
+	left: 70%;
+}
+
+#treesmodel2 {
+	position: absolute;
+	max-height: 50%;
+	max-width: 50%;
+	left: 35%;
+}
+
+#treesmodel3 {
+	position: absolute;
+	max-height: 50%;
+	max-width: 50%;
+	left: 0%;
+}
+
+#treesdescription {
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to glasses */
+
+#glassesimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#glasses {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#glassesdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to hallway */
+
+#hallwayimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#hallway {
+	position: absolute;
+	max-height: 80%;
+	max-width: 100%;
+}
+
+#hallwaydescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to hex */
+
+#heximage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#hex {
+	position: absolute;
+	top: 15%;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#hexdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to hiragana */
+
+#hiraganaimage {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    margin: 5px;
+}
+
+img#hiragana {
+    position: absolute;
+    max-height: 80%;
+    max-width: 110%;
+}
+
+#hiraganadescription {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    right: 0%;
+    margin: 5px;
+}
+
+/* break to meeting place */
+
+#meetingplaceimage {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    margin: 5px;
+}
+
+img#meetingplace {
+    position: absolute;
+    max-height: 80%;
+    max-width: 110%;
+}
+
+#meetingplacedescription {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    right: 0%;
+    margin: 5px;
+}
+
+/* break to point */
+
+#pointimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#point {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#pointdescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to sandgarden */
+
+#sandgardenimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#sandgarden {
+	position: relative;
+	max-height: 60%;
+	max-width: 110%;
+}
+
+#sandgardendescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to sketches */
+
+.sketches {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+#sketches {
+	position: absolute;
+	max-height: 100%;
+	max-width: 75%;
+}
+
+#sketches2 {
+	position: absolute;
+	max-height: 100%;
+	max-width: 52%;
+	left: 75%;
+	z-index: -1;
+}
+
+#sketchesdescription {
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	right: 0%;
+	margin: 5px;
+}
+
+
+/* break to uprooted */
+
+#uprootedimage {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+img#uprooted {
+	position: absolute;
+	max-height: 80%;
+	max-width: 110%;
+}
+
+#uprooteddescription {
+	position: absolute;
+	height: 100%;
+	width: 35%;
+	right: 0%;
+	margin: 5px;
+}
+
+/* break to xyz */
+
+.xyzimages {
+	position: absolute;
+	height: 100%;
+	width: 55%;
+	margin: 5px;
+}
+
+#xyz {
+	position: absolute;
+	max-height: 60%;
+	max-width: 60%;
+}
+
+#xyzaxon {
+	position: absolute;
+	max-height: 50%;
+	max-width: 50%;
+	left: 65%;
+}
+
+#xyzdescription {
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	right: 0%;
+	margin: 5px;
+}
